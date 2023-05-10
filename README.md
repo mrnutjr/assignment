@@ -4,6 +4,7 @@
 ## Run the app
 
 Java : mvn spring-boot:run
+
 Kotlin : ./gradlew bootRun
 
 # REST API
