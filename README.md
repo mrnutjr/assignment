@@ -4,7 +4,7 @@
 ## Run the app
 
 Java : mvn spring-boot:run
-Kotlin : 
+Kotlin : ./gradlew bootRun
 
 # REST API
 
@@ -14,7 +14,7 @@ The REST API of user service is described below.
 
 ### Request
 ``
-`GET /user/{seed}```
+`GET /v1/user/{seed}```
 
     curl --location 'localhost:8080/v1/user/1'
 
